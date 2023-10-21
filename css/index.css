@@ -6,6 +6,8 @@ body {
 }
 
 .cont {
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-top: 400px;
     background-color: #dedee0;
     width: 500px;
@@ -14,6 +16,7 @@ body {
 }
 
 .main_text {
+    margin: 0;
     color: #494947;
     font-weight: 900;
     font-size: 26px;
