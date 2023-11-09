@@ -5,8 +5,8 @@ validateButton.addEventListener("click", function() {
   var enteredPassword = passwordInput.value;
 
   if (enteredPassword == '6GL6GC6A') {
-    alert("ВІРНО");
+    window.location.href = "true.html";
   } else {
-    alert("НЕ ТО");
+    alert("СПРОБА ВЗЛОМУ! ГРУПА ЗАЧИЩЕННЯ В ДОРОЗІ!");
   }
 });
